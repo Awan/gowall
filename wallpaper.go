@@ -34,6 +34,13 @@ func main() {
         return
     }
 
+    // check if feh is installed
+    _, err := exec.LookPath("feh")
+    if err != nil {
+        fmt.Println("Warning: feh not found. Please install it to set wallpapers.")
+        return
+    }
+
     for {
         imageFiles, err := ioutil.ReadDir(imagesDir)
         if err != nil {
