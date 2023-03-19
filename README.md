@@ -18,7 +18,7 @@ This program uses `feh` to set wallpapers.
     ```
 Or
 
--   Get the built one binary [here]()
+-   Get the built one binary [here](https://github.com/Awan/gowall/releases/download/v1.0.0/wallpaper.binary).
 
 
 #### Usage
